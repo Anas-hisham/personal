@@ -1,0 +1,38 @@
+footer {
+  background-color: #151515;
+  padding: 20px;
+}
+.row {
+  position: relative;
+  justify-content: space-evenly;
+}
+@media (max-width: 992px) {
+  footer .row {
+    justify-content: space-around !important;
+  }
+}
+footer p {
+  color: #748182;
+
+  font-size: 15px;
+  word-spacing: 2px;
+  font-weight: 400;
+  margin: auto;
+}
+footer span {
+  color: #ffffff;
+}
+
+.copyright {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .copyright {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  footer p {
+    font-size: 12px;
+    text-wrap: nowrap;
+  }
+}

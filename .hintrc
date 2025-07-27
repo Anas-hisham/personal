@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-wrap",
+          "text-wrap: nowrap"
+        ]
+      }
+    ],
+    "css-prefix-order": "off"
+  }
+}

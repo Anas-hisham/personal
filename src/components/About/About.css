@@ -1,0 +1,142 @@
+section {
+  padding: 80px 0;
+}
+.container {
+  text-align: -webkit-center;
+}
+.button-section {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .button-section {
+    padding: 0px 0.8rem;
+  }
+}
+
+.about button {
+  height: 50px;
+  width: 250px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .about .button-div  {
+    display: block !important;
+  }
+}
+.hire {
+  background-color: transparent;
+  border: 3px solid #313131;
+  cursor: pointer;
+  font-family: "poppins-bold", sans-serif;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #313131;
+}
+.hire:hover {
+  border: 3px solid #ff0077;
+  color: #ff0077;
+}
+
+.cv {
+  background-color: #313131;
+  color: white;
+  border: 0 solid #313131;
+  transition: 0.5s;
+}
+@media (min-width: 768px) {
+  .button-section .d-inline-block {
+    margin-left: 30px;
+  }
+}
+.cv:hover {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .about button {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+  .hire {
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+
+.row.AboutContent {
+  max-width: 850px;
+  justify-content: center;
+}
+
+.profile,
+.skills {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .profile {
+    margin-bottom: 50px;
+  }
+}
+.profile h4,
+.skills h4 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 992px) {
+  .skills h4 {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .skills h4 {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .skills h4 {
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .profile h4,
+  .skills h4 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .row.skills {
+    padding: 0 1rem;
+    justify-content: space-between !important;
+  }
+}
+.profile ul {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .profile ul {
+    padding: 0 1rem;
+  }
+}
+
+.about ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.about ul li strong {
+  color: #313131;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.about ul li span {
+  display: block;
+  color: #888888;
+  line-height: 1;
+  padding-top: 5px;
+}

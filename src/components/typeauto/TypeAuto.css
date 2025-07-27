@@ -1,0 +1,13 @@
+.Type span {
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 700px) {
+  .Type span {
+    font-size: 14px;
+  }
+}
+/* .Typewriter__cursor {
+  color: #cc005f !important;
+} 
+  */
